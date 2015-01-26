@@ -15,9 +15,9 @@ module.exports = function(grunt) {
           'src/flipclock/js/vendor/*.js',
           'src/flipclock/js/libs/core.js',
           'src/flipclock/js/libs/*.js',
-          'src/flipclock/js/faces/twentyfourhourclock.js',
-          'src/flipclock/js/faces/*.js',
-          'src/flipclock/js/lang/*.js',
+          'src/flipclock/js/faces/hourlycounter.js',
+          'src/flipclock/js/faces/minutecounter.js',
+          'src/flipclock/js/lang/en-us.js',
         ],
         dest: 'compiled/flipclock.js',
       }
